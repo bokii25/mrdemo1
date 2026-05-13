@@ -25,7 +25,7 @@ body{
 }
 
 .allw{
-    padding: 30px;
+    /* padding: 30px; */
 }
 
 
@@ -74,6 +74,7 @@ body{
     align-items: center;
 
     transform: scale(1.2);
+    margin-top: 25px;
 }
 
 .boxtx{
@@ -225,4 +226,16 @@ body{
 .tit2{
     font-size: 30px;
     font-weight: 600;
+}
+
+@media(max-width: 390px){
+
+    .allw{
+        transform: scale(0.8);
+    }
+    .tit{
+        font-size: 40px !
+         important;
+        word-wrap: break-word;
+    }
 }
