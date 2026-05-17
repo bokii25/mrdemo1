@@ -9,23 +9,33 @@
 }
 
 
-body{
-    min-height: 100vh;
+/*body{
+     min-height: 100vh;
     background: 
         linear-gradient(rgba(1, 9, 25, 0.9), rgba(1, 9, 25, 4)), 
         url('img box/compuetbcg.avif');
     
     background-size: cover;
     background-position: center;
-    /* background-attachment: fixed;  */
     background-repeat: no-repeat;
     
     color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+
+    background-color: #0b132b; 
+} */
+
+
+body{
+    min-height: 100vh;
+    color: white;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+
+    background-color: #0b132b;
 }
 
 .allw{
-    /* padding: 30px; */
 }
 
 
@@ -40,7 +50,6 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* padding: 0 20px; */
 }
 
 .logo{
@@ -62,19 +71,19 @@ body{
 }
 
 .box{
-    width: 200px;
-    height: 30px;
+
+
+    width: 220px;       
+    height: 35px;    
     background-color: #112245;
     color: white;
     border-radius: 50px;
     border: 1px solid #6e82ac;
-
     display: flex;
     justify-content: center;
     align-items: center;
-
-    transform: scale(1.2);
-    margin-top: 25px;
+    margin-top: 25px;   
+    font-size: 14px;
 }
 
 .boxtx{
@@ -82,10 +91,11 @@ body{
 }
 
 .tit{
+
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: center;
-    margin-top: 60px;
-    font-size: 50px;
+    margin-top: 20px; 
+    font-size: 32px;  
     color: #fff;
     font-weight: 600;
 }
@@ -93,7 +103,7 @@ body{
 .mikror{
     font-weight: 600;
     color: #3a7dea;
-    font-size: 60px;
+    font-size: 50px;
 }
 
 .subtx1{
@@ -135,20 +145,21 @@ body{
 }
 
 .pr{
+ 
+
     /* margin-top: 60px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    gap: 30px; */
-
-    margin-top: 60px;
     display: flex;
     justify-content: center; 
     align-items: center;
     gap: 40px; 
-    width: 100%;
+    width: 100%; */
 
+    margin-top: 30px; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 20px; 
+    width: 100%;
 }
 
 .onepr, .twopr, .threepr{
@@ -178,11 +189,10 @@ body{
 }
 
 .broj2{
-    /* padding-left: 3px; */
 }
 
 .box2{
-        width: 200px;
+        /* width: 200px;
     height: 30px;
     background-color: #112245;
     color: white;
@@ -193,11 +203,22 @@ body{
     justify-content: center;
     align-items: center;
 
-    transform: scale(1.2);
+    transform: scale(1.2); */
+
+    width: 220px;
+    height: 35px;
+    background-color: #112245;
+    color: white;
+    border-radius: 50px;
+    border: 1px solid #6e82ac;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
 }
 
 .middle{
-    margin-top: 80px;
+    margin-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -208,6 +229,50 @@ body{
 
 .boxtx2{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.boxpr{
+    width: 220px;       
+    height: 35px;    
+    background-color: #112245;
+    color: white;
+    border-radius: 50px;
+    border: 1px solid #6e82ac;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;   
+    font-size: 14px;
+    text-align: center;
+
+}
+
+.titpr{
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 15px;
+
+}
+
+
+.devipr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 20px; 
+    /* font-size: 32px;   */
+    color: #fff;
+    /* font-weight: 600; */
+    flex-direction: column;
+    padding: 20px;
+}
+
+.subtxpr{
+    font-family: 20px;
 }
 
 .containerw{
@@ -250,14 +315,42 @@ body{
     position: absolute;
     top: 15px;
     right: 15px;
-    background-color: rgba(29, 185, 84, 0.15); /* Providna zelena */
-    color: #1db954; /* Jarka zelena za tekst */
+    background-color: rgba(29, 185, 84, 0.15); 
+    color: #1db954;
     padding: 6px 14px;
     border-radius: 20px;
     font-size: 13px;
     font-weight: 600;
     border: 1px solid rgba(29, 185, 84, 0.3);
 }
+
+.status-badge2{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: rgba(234, 47, 14, 0.15); 
+    color: #e00c0c;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+    border: 1px solid rgba(204, 20, 20, 0.3);
+}
+
+
+.status-badge3{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: rgba(234, 179, 14, 0.15); 
+    color: #e0a40c;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: 600;
+    border: 1px solid rgba(225, 183, 16, 0.3);
+}
+
 
 .tit2 {
     color: #ffffff;
@@ -295,7 +388,7 @@ body{
     display: block;
 }
 
-@media(max-width: 390px){
+/* @media(max-width: 390px){
 
     .allw{
         transform: scale(0.8);
@@ -304,5 +397,41 @@ body{
         font-size: 40px !
          important;
         word-wrap: break-word;
+    }
+} */
+
+@media(max-width: 390px){
+    /* BRISAN scale(0.8) jer je on pravio prazninu */
+    .allw {
+        width: 100%;
+    }
+    
+    .tit {
+        font-size: 28px !important; /* Smanjen naslov za male ekrane */
+    }
+    
+    .mikror {
+        font-size: 34px !important; /* Smanjena reč Mikroracunara da ne puca u novi red */
+    }
+
+    .subtx1 {
+        font-size: 14px;
+        padding: 0 10px; /* Dodat prostor sa strana da tekst ne udara u ivicu */
+    }
+
+    /* Smanjujemo dugmiće jer smo izbacili scale(1.2) sa njih */
+    .ip {
+        width: 160px;
+        transform: none;
+    }
+    .pi {
+        width: 140px;
+        transform: none;
+    }
+
+    /* Kartica se skuplja ako je ekran telefona uži od 350px */
+    .container1 {
+        width: 100%;
+        max-width: 320px;
     }
 }
